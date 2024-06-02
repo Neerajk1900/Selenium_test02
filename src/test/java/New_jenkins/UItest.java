@@ -19,6 +19,8 @@ WebDriver driver = new ChromeDriver();
 			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 			
 			Assert.assertTrue(driver.getTitle().contains("OrangeHRM"), "Title does not match");
+			
+			System.out.println("First jenkins job");
 			//driver.quit();
 	}
 
