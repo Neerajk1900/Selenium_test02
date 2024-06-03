@@ -2,12 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-02T15:02:53 IST" name="Suite" finished-at="2024-06-02T15:03:12 IST" duration-ms="19014">
+  <suite started-at="2024-06-03T12:14:36 IST" name="Suite" finished-at="2024-06-03T12:14:49 IST" duration-ms="12512">
     <groups>
     </groups>
-    <test started-at="2024-06-02T15:02:53 IST" name="Test" finished-at="2024-06-02T15:03:12 IST" duration-ms="19014">
+    <test started-at="2024-06-03T12:14:36 IST" name="Test" finished-at="2024-06-03T12:14:49 IST" duration-ms="12512">
       <class name="New_jenkins.UItest">
-        <test-method signature="Startbrowser()[pri:0, instance:New_jenkins.UItest@76508ed1]" started-at="2024-06-02T15:02:54 IST" name="Startbrowser" finished-at="2024-06-02T15:03:12 IST" duration-ms="18898" status="PASS">
+        <test-method signature="Startbrowser(java.lang.String)[pri:0, instance:New_jenkins.UItest@2c767a52]" started-at="2024-06-03T12:14:36 IST" name="Startbrowser" finished-at="2024-06-03T12:14:49 IST" duration-ms="12435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startbrowser -->
